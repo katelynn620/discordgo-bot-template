@@ -1,0 +1,13 @@
+debug: False
+token:
+db:
+  type: sqlite # postgres, mysql, sqlite
+  file: db.sqlite # for sqlite
+  host: <DB_HOST>
+  user: <DB_USER>
+  password: <DB_PASSWORD>
+  port: <DB_PORT>
+  name: <DB_NAME>
+  sslmode: disable
+  max_idle_conns: 10
+  max_open_conns: 100
